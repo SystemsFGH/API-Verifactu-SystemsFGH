@@ -16,6 +16,8 @@
 > [!IMPORTANT]
 > **📢 ESTADO DEL PRODUCTO: PRÓXIMAMENTE DISPONIBLE**
 > El Middleware VeriFactu está finalizando su fase de pruebas y **muy pronto estará disponible para descargar e instalar** en tu propia infraestructura. ¡Mantente atento a nuestra web para el lanzamiento oficial!
+> 
+> **Crea una cuenta con tu email en nuestra web, sin necesidad de aportar más datos.** Serás avisado de forma inmediata de la disponibilidad de la descarga de los binarios para Windows y Linux, así como de la disposición de la licencia con la clave de activación.
 
 Bienvenido al repositorio oficial de documentación de la **API VeriFactu**. Este repositorio contiene las guías técnicas, ejemplos de integración y la arquitectura de nuestro Middleware diseñado para facilitar a otras empresas el cumplimiento normativo exigido por el entorno VeriFactu de la Agencia Tributaria.
 
