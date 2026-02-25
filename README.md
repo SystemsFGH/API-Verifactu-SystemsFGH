@@ -28,6 +28,8 @@ Este software opera bajo una **Licencia Comercial** de uso a largo plazo. No es 
 > [!TIP]
 > **🎁 PROMOCIÓN ESPECIAL DE LANZAMIENTO**
 > Para facilitar la adopción y las pruebas en entornos productivos, **durante los primeros 18 meses tras la instalación, no se activarán los mecanismos de cobro por licencia**. Podrás utilizar y validar el Middleware sin restricciones comerciales durante este extenso periodo de gracia. Las licencias adquiridas están pensadas para una viabilidad a muy largo plazo.
+> 
+> Esta licencia inicial permite hasta tres emisores simultáneos; esto es, llevar las operaciones de tres empresas distintas independientes sin ningún límite de facturas emitidas. Cuando el Middleware esté público disponible, pruébenlo sin miedo y si les satisface no duden en pasarlo a su producción. No habrá sorpresas en el precio de las suscripciones tras este tiempo, ya que estas se ajustarán a la media del mercado. Además, actualmente se está estudiando la viabilidad de ofrecer licencias perpetuamente gratuitas para proyectos de un solo emisor con un volumen de hasta 1.000 operaciones anuales.
 
 ---
 
