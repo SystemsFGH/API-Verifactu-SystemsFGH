@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/Estado-Lanzamiento_Inminente-orange?style=for-the-badge&logo=rocket" alt="Estado: Próximamente" />
+  <img src="https://img.shields.io/badge/Estado-Lanzamiento_Versión 1.0.2 para Windows-orange?style=for-the-badge&logo=rocket" alt="Estado: Lanzada" />
   <img src="https://img.shields.io/badge/Licencia-Comercial_con_periodo_de_gracia-blue?style=for-the-badge&logo=law" alt="Licencia Comercial" />
   <img src="https://img.shields.io/badge/Integraci%C3%B3n-API_REST_|_JSON-success?style=for-the-badge&logo=json" alt="API y JSON" />
   <br/><br/>
