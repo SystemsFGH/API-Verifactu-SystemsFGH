@@ -94,7 +94,7 @@ Si eres nuevo en la plataforma, te recomendamos leer primero la **[Visión Gener
 
 # Motor Verifactu - SystemsFGH
 
-[![Descargar Instalador](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)
+[![Descargar Instalador](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)
 
 *(Haz clic en el botón azul para descargar la última versión)*
 
