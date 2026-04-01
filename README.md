@@ -25,7 +25,6 @@ Bienvenido al repositorio oficial de documentación de la **API VeriFactu**. Est
 
 ## ⚖️ Licencia y Uso (¡Importante!)
 
-Este software opera bajo una **Licencia Comercial** de uso a largo plazo. No es software de código abierto (no es MIT ni similar) y su explotación requiere una suscripción activa. 
 
 > [!TIP]
 > **🎁 PROMOCIÓN ESPECIAL DE LANZAMIENTO**
