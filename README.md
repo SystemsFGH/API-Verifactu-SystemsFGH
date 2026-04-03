@@ -93,7 +93,22 @@ Si eres nuevo en la plataforma, te recomendamos leer primero la **[Visión Gener
 
 # Motor Verifactu - SystemsFGH
 
-[![Descargar Instalador](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)
 
-*(Haz clic en el botón azul para descargar la última versión)*
+[![Descargar Instalador](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)  
+*(Haz clic en el botón azul para descargar la versión de Escritorio Windows)*
+
+---
+
+### 🐧 Instalación en Servidores Linux (Ubuntu / Debian)
+
+Para desplegar VeriFactu como un servicio automático en segundo plano en tu servidor Linux empresarial, descarga el asistente interactivo de instalación:
+
+[![Instalador Linux](https://img.shields.io/badge/Descargar-Instalador_Linux_v1.0.2-orange?style=for-the-badge&logo=linux)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/Linux_v1.0%2C2/install.sh)
+
+**Cómo ejecutar el instalador:**
+1. Descarga el script [install.sh](cci:7://file:///home/fernando/verifactu/scripts/linux/install.sh:0:0-0:0) y súbelo a tu servidor.
+2. Abre la terminal, dirígete a la carpeta donde lo has guardado y asínale permisos de ejecución mediante el siguiente comando:
+   ```bash
+   chmod +x install.sh
+
 
