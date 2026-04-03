@@ -91,10 +91,36 @@ En la carpeta `docs/sdk_integration_guides/` encontrarás guías listas para ser
 
 Si eres nuevo en la plataforma, te recomendamos leer primero la **[Visión General](docs/01_vision_general.md)** y posteriormente revisar la guía de integración del lenguaje de programación que utilices en tu empresa.
 
-# Motor Verifactu - SystemsFGH
+# VeriFactu Middleware AEAT - Linux Release v1.0.2
 
+Esta actualización trae la primera arquitectura de instalación comercial de VeriFactu para entornos Linux. Hemos rediseñado por completo el ecosistema para ofrecer una experiencia empresarial impecable, automática y segura. 
 
-[![Descargar Instalador](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)  
+## ✨ Novedades y Beneficios Principales
+
+- 🚀 **Instalación Inteligente:** Olvídate de configuraciones manuales complejas. El nuevo asistente configura el ecosistema completo (servicios, bases de datos y permisos de red) de forma completamente autónoma.
+- 🛡️ **Actualizaciones Seguras (Sin Pérdida de Datos):** Instalar una nueva versión del software reconoce automáticamente si tu empresa ya es cliente. Tus bases de datos, facturas, configuraciones y usuarios se blindan y preservan de forma garantizada durante la actualización.
+- ⚙️ **Motor de Base de Datos Embebido:** Incluye internamente nuestro motor *Firebird 5.x* pre-configurado de alto rendimiento. No requiere que el equipo informático instale ni mantenga servidores SQL complejos de terceros.
+- 🔄 **Alta Disponibilidad Automática:** VeriFactu se integra directamente en el núcleo del servidor. La API y el procesador de facturas arrancan solos, de forma silenciosa e invisible en segundo plano, garantizando su disponibilidad cada vez que se enciende la máquina.
+- 🧹 **Gestor de Desinstalación Incorporado:** Incluye una herramienta oficial para retirar el componente legal de forma segura, permitiendo a la empresa elegir si desea realizar un borrado total o únicamente desinstalar el motor conservando el registro histórico de facturas de forma segura en disco.
+
+## 🐧 Compatibilidad Soportada
+
+El software está diseñado para operar bajo filosofía "Plug & Play" con máxima compatibilidad cruzada en arquitecturas modernas y servidores VPS comerciales.
+
+**Soporte Oficial (Recomendado):**
+- Ubuntu 24.04 LTS (Noble Numbat)
+- Ubuntu 22.04 LTS (Jammy Jellyfish)
+
+**Soporte Extendido:**
+- Debian 12 (Bookworm) y distribuciones empresariales modernas basadas en Debian. *(El instalador resolverá dependencias de compilación en tiempo real de forma dinámica vía internet, por lo que requiere conexión a red durante el proceso).*
+
+> **Aviso de Despliegue:** Para permitir que VeriFactu registre e incruste sus procesos automáticos en el núcleo de arranque de su sistema, asegúrese de ejecutar el asistente de instalación utilizando privilegios de administrador (`sudo` o bajo sesión `root`).
+
+---
+
+## 📥 Descargas e Instalación
+
+[![Descargar Instalador Windows](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)  
 *(Haz clic en el botón azul para descargar la versión de Escritorio Windows)*
 
 ---
@@ -105,10 +131,32 @@ Para desplegar VeriFactu como un servicio automático en segundo plano en tu ser
 
 [![Instalador Linux](https://img.shields.io/badge/Descargar-Instalador_Linux_v1.0.2-orange?style=for-the-badge&logo=linux)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/Linux_v1.0%2C2/install.sh)
 
-**Cómo ejecutar el instalador:**
-1. Descarga el script [install.sh](cci:7://file:///home/fernando/verifactu/scripts/linux/install.sh:0:0-0:0) y súbelo a tu servidor.
-2. Abre la terminal, dirígete a la carpeta donde lo has guardado y asínale permisos de ejecución mediante el siguiente comando:
-   ```bash
-   chmod +x install.sh
+**Cómo ejecutar el instalador desde la consola (SSH):**
+Introduce estos tres comandos en orden para descargar la herramienta, darle permisos y ejecutarla como administrador:
 
+```bash
+wget https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/Linux_v1.0%2C2/install.sh
+chmod +x install.sh
+sudo ./install.sh
+```
 
+*(El asistente descargará automáticamente el núcleo del motor, forjará su entorno nativo seguro y arrancará la API y el Worker por ti).*
+
+---
+
+### 🗑️ Mantenimiento y Desinstalación (Linux)
+
+Si necesitas retirar el software de forma controlada o hacer una reinstalación en limpio, utiliza nuestra herramienta de desinstalación oficial:
+
+[![Desinstalador Linux](https://img.shields.io/badge/Descargar-Desinstalador_Linux-red?style=for-the-badge&logo=linux)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/Linux_v1.0%2C2/uninstall.sh)
+
+**Cómo ejecutar el borrado desde la consola (SSH):**
+Para descargar y lanzar el borrado seguro, utiliza estos comandos:
+
+```bash
+wget https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/Linux_v1.0%2C2/uninstall.sh
+chmod +x uninstall.sh
+sudo ./uninstall.sh
+```
+
+*(El asistente interactivo en pantalla detendrá los motores y **te dará a elegir obligatoriamente** si deseas un borrado total de la aplicación, o un borrado conservador que preserve tu base de datos de facturas intacta en el disco).*
