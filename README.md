@@ -91,11 +91,11 @@ En la carpeta `docs/sdk_integration_guides/` encontrarás guías listas para ser
 
 Si eres nuevo en la plataforma, te recomendamos leer primero la **[Visión General](docs/01_vision_general.md)** y posteriormente revisar la guía de integración del lenguaje de programación que utilices en tu empresa.
 
-# VeriFactu Middleware AEAT - Linux Release v1.0.2
+# VeriFactu Middleware AEAT - Windows y Linux Release v1.0.2
 
 Esta actualización trae la primera arquitectura de instalación comercial de VeriFactu para entornos Linux. Hemos rediseñado por completo el ecosistema para ofrecer una experiencia empresarial impecable, automática y segura. 
 
-## ✨ Novedades y Beneficios Principales
+## ✨ Novedades y Beneficios Principales instalador Linux
 
 - 🚀 **Instalación Inteligente:** Olvídate de configuraciones manuales complejas. El nuevo asistente configura el ecosistema completo (servicios, bases de datos y permisos de red) de forma completamente autónoma.
 - 🛡️ **Actualizaciones Seguras (Sin Pérdida de Datos):** Instalar una nueva versión del software reconoce automáticamente si tu empresa ya es cliente. Tus bases de datos, facturas, configuraciones y usuarios se blindan y preservan de forma garantizada durante la actualización.
@@ -103,7 +103,7 @@ Esta actualización trae la primera arquitectura de instalación comercial de Ve
 - 🔄 **Alta Disponibilidad Automática:** VeriFactu se integra directamente en el núcleo del servidor. La API y el procesador de facturas arrancan solos, de forma silenciosa e invisible en segundo plano, garantizando su disponibilidad cada vez que se enciende la máquina.
 - 🧹 **Gestor de Desinstalación Incorporado:** Incluye una herramienta oficial para retirar el componente legal de forma segura, permitiendo a la empresa elegir si desea realizar un borrado total o únicamente desinstalar el motor conservando el registro histórico de facturas de forma segura en disco.
 
-## 🐧 Compatibilidad Soportada
+## 🐧 Compatibilidad Soportada en Linux
 
 El software está diseñado para operar bajo filosofía "Plug & Play" con máxima compatibilidad cruzada en arquitecturas modernas y servidores VPS comerciales.
 
