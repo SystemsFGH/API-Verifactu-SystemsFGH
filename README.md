@@ -14,7 +14,7 @@
 </div>
 
 > [!IMPORTANT]
-> **📢 ESTADO DEL PRODUCTO: Disponible la versión de Windos (Mirar realease v1.0.2)**
+> **📢 ESTADO DEL PRODUCTO: Disponible las versiones para Windows y Linux (Mirar realease v1.0.2)**
 > El Middleware VeriFactu está finalizando su fase de pruebas y **está disponible para descargar e instalar** en tu propia infraestructura. 
 > 
 > **Crea una cuenta con tu email en nuestra web, sin necesidad de aportar más datos.** Serás avisado de forma inmediata de la disponibilidad de la descarga de los binarios para Windows y Linux, así como de la disposición de la licencia con la clave de activación.
