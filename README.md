@@ -15,9 +15,8 @@
 
 > [!IMPORTANT]
 > **📢 ESTADO DEL PRODUCTO: Disponible las versiones para Windows y Linux (Mirar realease v1.0.2)**
-> El Middleware VeriFactu está finalizando su fase de pruebas y **está disponible para descargar e instalar** en tu propia infraestructura. 
-> 
-> **Crea una cuenta con tu email en nuestra web, sin necesidad de aportar más datos.** Serás avisado de forma inmediata de la disponibilidad de la descarga de los binarios para Windows y Linux, así como de la disposición de la licencia con la clave de activación.
+> El Middleware VeriFactu ya ha finalizando su fase de pruebas y **está disponible para descargar e instalar** en tu propia infraestructura. 
+> Una vez descargado puede ser testeado sin necesidad de registro, pero si lo ves viable para su uso puede obtenerse una licencia completamente gratuita para **18 meses** desde su activación, tres emisores (NIF's con capacidad de emitir facturas), y un numero ilimitado de operaciones tras **Crear una cuenta con tu email en nuestra web, sin necesidad de aportar más datos.** y dispondrás de forma inmediata de la licencia con la clave de activación
 
 Bienvenido al repositorio oficial de documentación de la **API VeriFactu**. Este repositorio contiene las guías técnicas, ejemplos de integración y la arquitectura de nuestro Middleware diseñado para facilitar a otras empresas el cumplimiento normativo exigido por el entorno VeriFactu de la Agencia Tributaria.
 
@@ -53,8 +52,8 @@ Si tu ERP puede enviar una petición `POST` mediante HTTP, ya has solucionado Ve
 ## ⚖️ Licencia y Uso (¡Importante!)
 
 > [!TIP]
-> **🎁 PROMOCIÓN ESPECIAL DE LANZAMIENTO**
-> Para facilitar la adopción y las pruebas en entornos productivos, **durante los primeros 18 meses tras la instalación, no se activarán los mecanismos de cobro por licencia**. Podrás utilizar y validar el Middleware sin restricciones comerciales durante este extenso periodo de gracia. Las licencias adquiridas están pensadas para una viabilidad a muy largo plazo.
+> **🎁 ¡ QUEREMOS QUE PRUEBES NUESTRA API !**
+> Para facilitar la adopción y las pruebas en entornos productivos, **durante los primeros 18 meses tras la instalación, no se activarán LOS MECANISMOS DE RENOVACIÓN**. Podrás utilizar y validar el Middleware sin restricciones comerciales durante este extenso periodo de gracia. Las licencias adquiridas están pensadas para una viabilidad a muy largo plazo.
 > 
 > Esta versión del software se ofrece con un periodo garantizado de 18 meses de uso sin necesidad de adquirir ni validar ningún tipo de licencia adicional. Durante este tiempo el usuario podrá instalar y utilizar la aplicación con total normalidad.
 
@@ -62,7 +61,7 @@ Transcurrido dicho periodo, es posible que el proyecto evolucione hacia un model
 
 Como principio fundamental del proyecto, se mantiene una garantía de continuidad tecnológica: el uso actual de la aplicación no debe generar dependencia ni riesgo para quienes decidan adoptarla.
 
-En este sentido, y con el objetivo de reforzar la confianza de los usuarios a largo plazo, el proyecto contempla que, como alternativa a un modelo de explotación comercial, el software pueda publicarse bajo licencia abierta MIT, lo que aseguraría la plena libertad de uso, estudio y evolución de la aplicación por parte de la comunidad.
+En este sentido, y con el objetivo de reforzar la confianza de los usuarios a largo plazo, el proyecto contempla que, como alternativa a un modelo de explotación comercial, **el software pueda publicarse bajo licencia abierta MIT**, lo que aseguraría la plena libertad de uso, estudio y evolución de la aplicación por parte de la comunidad.
 
 Nuestro propósito es ofrecer una herramienta útil, estable y confiable, cuya adopción hoy no suponga ningún riesgo de dependencia tecnológica ni de condiciones futuras imprevisibles.
 
