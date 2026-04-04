@@ -23,14 +23,40 @@ Bienvenido al repositorio oficial de documentación de la **API VeriFactu**. Est
 
 ---
 
-## ⚖️ Licencia y Uso (¡Importante!)
+## 📌 ¿Qué es SystemsFGH Middleware VeriFactu? (Motor On-Premise)
 
+Para cumplir con el **Real Decreto 1007/2023** (sistema VERI*FACTU), los desarrolladores de software de facturación y Puntos de Venta (TPV) deben implementar complejos requisitos técnicos: firma electrónica, cálculo encadenado de Hashes SHA-256, generación de códigos QR y comunicación XML inalterable con la AEAT.
+
+Nuestro middleware es un **Motor Autónomo Instalable (On-Premise)** diseñado para hacer el trabajo sucio por ti. Actúa como una caja negra (proxy local inteligente): tu ERP le lanza un JSON genérico desde localhost, y nuestro motor se encarga de todo el proceso criptográfico y de comunicaciones, devolviéndote el estado y la URL del código QR lista para imprimir.
+
+## ⚡ La Ventaja Local frente a APIs SaaS en la Nube
+
+1. **Privacidad Extrema y RGPD:** A diferencia de las "APIs en la Nube", donde el ERP envía toda la facturación de la empresa a servidores de terceros, **nuestro motor se ejecuta localmente**. Los datos de tus clientes nunca salen de su ordenador, viajando desencriptados directamente a Hacienda.
+2. **Custodia del Certificado FNMT:** El certificado de firma electrónica pertenece al cliente y reside de forma segura en su propia máquina.
+3. **Resiliencia (Base de datos Firebird 5.0):** Al integrar Firebird de forma nativa, tu ERP nunca se quedará colgado si Hacienda no responde. Nuestro sistema encola las facturas asíncronamente en disco y las procesa en segundo plano de manera autónoma.
+
+## 💻 Compatibilidad Universal (Cualquier Lenguaje ERP)
+
+A diferencia de librerías cerradas o proyectos específicos (`.dll`, `NuGet`), nuestra API Verifactu se despliega como un Microservicio HTTP agnóstico en el equipo local. Esto lo hace **100% compatible con cualquier lenguaje o software clásico**:
+
+- Delphi, C++Builder y Rad Studio.
+- PHP, Laravel, Symfony.
+- Python, Django, Flask, FastAPI.
+- Java (Spring), C#, VB.NET, FoxPro.
+- Node.js, Go, Rust.
+- Velneo, FileMaker.
+
+Si tu ERP puede enviar una petición `POST` mediante HTTP, ya has solucionado VeriFactu de una vez por todas.
+
+---
+
+## ⚖️ Licencia y Uso (¡Importante!)
 
 > [!TIP]
 > **🎁 PROMOCIÓN ESPECIAL DE LANZAMIENTO**
 > Para facilitar la adopción y las pruebas en entornos productivos, **durante los primeros 18 meses tras la instalación, no se activarán los mecanismos de cobro por licencia**. Podrás utilizar y validar el Middleware sin restricciones comerciales durante este extenso periodo de gracia. Las licencias adquiridas están pensadas para una viabilidad a muy largo plazo.
 > 
->Esta versión del software se ofrece con un periodo garantizado de 18 meses de uso sin necesidad de adquirir ni validar ningún tipo de licencia adicional. Durante este tiempo el usuario podrá instalar y utilizar la aplicación con total normalidad.
+> Esta versión del software se ofrece con un periodo garantizado de 18 meses de uso sin necesidad de adquirir ni validar ningún tipo de licencia adicional. Durante este tiempo el usuario podrá instalar y utilizar la aplicación con total normalidad.
 
 Transcurrido dicho periodo, es posible que el proyecto evolucione hacia un modelo de licencias comerciales acorde con las condiciones habituales del mercado, con el objetivo de sostener la infraestructura técnica, el mantenimiento del software y los servicios asociados.
 
@@ -42,17 +68,17 @@ Nuestro propósito es ofrecer una herramienta útil, estable y confiable, cuya a
 
 ---
 
-## 🏗️ ¿Cómo funciona?
+## 🏗️ Diagrama de Funcionamiento
 
-El Middleware actúa como una caja negra que recibe tus facturas en formato genérico JSON (desde tu ERP en C#, Delphi, PHP, etc.) y se encarga de firmarlas, estructurarlas y enviarlas a Hacienda, devolviéndote el estado.
+El Middleware actúa como una caja negra que recibe tus facturas en formato genérico JSON y se encarga de firmarlas, estructurarlas y enviarlas a Hacienda, devolviéndote el estado íntegro y la URL web de cotejo.
 
 ```mermaid
 graph LR
     A[Tu ERP o App] -->|1. Envía Factura JSON| B(Middleware VeriFactu)
-    B -->|2. Firma y Valida| C{Motor Local}
-    C -->|3. Comunicación Segura| D[(Agencia Tributaria)]
+    B -->|2. Encadenamiento Hash y Firma| C{Motor Local}
+    C -->|3. Comunicación Segura XML| D[(Agencia Tributaria)]
     D -->|4. Respuesta: Aceptada o Error| C
-    C -->|5. Retorna Estado Final| A
+    C -->|5. Retorna Estado y QR| A
     
     style A fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px;
     style B fill:#fff3e0,stroke:#ff9800,stroke-width:2px;
@@ -118,7 +144,7 @@ El software está diseñado para operar bajo filosofía "Plug & Play" con máxim
 
 ---
 
-## 📥 Descargas e Instalación
+## 📥 Descargas e Instalación Activas
 
 [![Descargar Instalador Windows](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)  
 *(Haz clic en el botón azul para descargar la versión de Escritorio Windows)*
