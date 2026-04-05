@@ -92,8 +92,8 @@ graph LR
 Toda la documentación está estructurada en la carpeta `docs/`:
 
 1.  **[Visión General del Middleware](docs/01_vision_general.md)** - Conceptos básicos y propósito del sistema.
-2.  **[Arquitectura de Componentes](docs/02_arquitectura_de_componentes.md)** - Diagrama general del Frontend, Backend y BD.
-3.  **[Conceptos y Flujo de Trabajo (Workflows)](docs/03_conceptos_flujo_de_trabajo.md)** - Cómo funciona la ingesta de facturas y los estados.
+2.  **[Arquitectura de Componentes](docs/02_arquitectura_despliegue.md)** - Diagrama general del Frontend, Backend y BD.
+3.  **[Conceptos y Flujo de Trabajo (Workflows)](docs/03_conceptos_flujo.md)** - Cómo funciona la ingesta de facturas y los estados.
 4.  **[El Entorno de Simulación](docs/04_entorno_simulacion.md)** - Entorno seguro para pruebas sin enviar a la AEAT real.
 5.  **[Integración de la API (REST)](docs/05_integracion_api.md)** - Referencia técnica de los _endpoints_ (Ingesta, Ack,...).
 6.  **[Diccionario de Datos (API y BD)](docs/06_diccionario_datos.md)** - Definición del modelo JSON de peticiones y respuestas.
