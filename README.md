@@ -97,8 +97,8 @@ Toda la documentación está estructurada en la carpeta `docs/`:
 4.  **[El Entorno de Simulación](docs/04_entorno_simulacion.md)** - Entorno seguro para pruebas sin enviar a la AEAT real.
 5.  **[Integración de la API (REST)](docs/05_integracion_api.md)** - Referencia técnica de los _endpoints_ (Ingesta, Ack,...).
 6.  **[Diccionario de Datos (API y BD)](docs/06_diccionario_datos.md)** - Definición del modelo JSON de peticiones y respuestas.
-7.  **[Rutas y Estructura de Proyecto](docs/07_rutas_y_estructura.md)** - Organización interna del desarrollo.
-8.  **[Monitorización y Registro (Logging)](docs/08_monitorizacion_y_logs.md)** - Información operativa del sistema.
+7.  **[Rutas y Estructura de Proyecto](docs/07_rutas_y_estructuras_json.md)** - Organización interna del desarrollo.
+8.  **[Monitorización y Registro (Logging)](docs/08_monitorizacion_logs.md)** - Información operativa del sistema.
 
 ---
 
