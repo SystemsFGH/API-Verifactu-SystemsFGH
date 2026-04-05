@@ -149,6 +149,19 @@ El software está diseñado para operar bajo filosofía "Plug & Play" con máxim
 
 *(Haz clic en el botón azul para descargar la versión de Escritorio Windows)*
 
+## ⚠️ Alertas habituales durante la descarga e instalación
+
+Dado que nuestro producto es una herramienta orientada a la empresa de muy reciente creación, carece aún del volumen de descargas masivas que exigen navegadores como Chrome y filtros como SmartScreen para catalogarlo como "común". 
+
+Por ello, es posible que se te muestren advertencias genéricas de seguridad. **Garantizamos que el archivo está 100% libre de riesgos.** Para tu absoluta tranquilidad, te invitamos a descargarlo y analizarlo haciendo clic derecho con tu Antivirus de confianza o Windows Defender antes de instalarlo.
+
+### Alarma al ejecutar el instalador (Windows SmartScreen)
+Al intentar abrir el instalador por primera vez, Windows mostrará una pantalla azul preventiva. Haz clic en **"Más información"** y aparecerá el botón **"Ejecutar de todas formas"**.
+
+<img width="335" height="303" alt="Permision 1" src="https://github.com/user-attachments/assets/58075e00-4c50-4a86-ad35-c17ab81f7243" />
+<img width="340" height="315" alt="Permision 2" src="https://github.com/user-attachments/assets/dc79d763-cb68-4d7b-87ec-13b5e1523538" />
+
+
 ---
 
 ### 🐧 Instalación en Servidores Linux (Ubuntu / Debian)
