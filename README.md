@@ -145,7 +145,7 @@ El software está diseñado para operar bajo filosofía "Plug & Play" con máxim
 
 ## 📥 Descargas e Instalación Activas
 
-[![Descargar Instalador Windows](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe)  
+[![Descargar Instalador Windows](https://img.shields.io/badge/Descargar-Instalador_Windows_v1.0.2-blue?style=for-the-badge&logo=windows)]([https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/latest/download/systemFGH_setup.exe](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/v1.0.2/systemFGH_Setup.exe))  
 *(Haz clic en el botón azul para descargar la versión de Escritorio Windows)*
 
 ---
