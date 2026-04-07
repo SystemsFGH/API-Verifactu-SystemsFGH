@@ -6,6 +6,27 @@
   
   <h1>🚀 Documentación del Middleware VeriFactu (B2B)</h1>
   <p><b>El puente definitivo entre tu ERP y la Agencia Tributaria (VeriFactu)</b></p>
+
+  # API VeriFactu para Delphi y ERPs
+
+Implementación completa del sistema VeriFactu (AEAT) para:
+- generación de registros
+- firma electrónica
+- envío automático a Hacienda
+
+Diseñado para integrarse en aplicaciones existentes sin modificar su arquitectura.
+
+## Problema
+
+Implementar VeriFactu desde cero implica:
+- firma XAdES
+- encadenamiento hash
+- comunicación SOAP compleja
+
+## Solución
+
+Este middleware resuelve todo el flujo automáticamente.
+
   
   <br />
   <h3>🌐 Visita nuestra web oficial para más información sobre el Middleware, planes y soporte:</h3>
