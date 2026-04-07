@@ -7,7 +7,7 @@
   <h1>🚀 Documentación del Middleware VeriFactu (B2B)</h1>
   <p><b>El puente definitivo entre tu ERP y la Agencia Tributaria (VeriFactu)</b></p>
 
-  # API VeriFactu para Delphi y ERPs
+  # API VeriFactu para ERPs implementados en cualquier lenguaje de programación
 
 Implementación completa del sistema VeriFactu (AEAT) para:
 - generación de registros
