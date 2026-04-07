@@ -24,6 +24,13 @@ Bienvenido al repositorio oficial de documentación de la **API VeriFactu**. Est
 
 ## 📌 ¿Qué es SystemsFGH Middleware VeriFactu? (Motor On-Premise)
 
+<div align="center">  
+  <h3>Título de tu vídeo aquí</h3>
+  <a href="https://youtu.be/XRn_FgcbQMM">
+    <img src="https://img.youtube.com/vi/XRn_FgcbQMM/maxresdefault.jpg" alt="Video de demostración" width="600"/>
+  </a>
+</div>
+
 Para cumplir con el **Real Decreto 1007/2023** (sistema VERI*FACTU), los desarrolladores de software de facturación y Puntos de Venta (TPV) deben implementar complejos requisitos técnicos: firma electrónica, cálculo encadenado de Hashes SHA-256, generación de códigos QR y comunicación XML inalterable con la AEAT.
 
 Nuestro middleware es un **Motor Autónomo Instalable (On-Premise)** diseñado para hacer el trabajo sucio por ti. Actúa como una caja negra (proxy local inteligente): tu ERP le lanza un JSON genérico desde localhost, y nuestro motor se encarga de todo el proceso criptográfico y de comunicaciones, devolviéndote el estado y la URL del código QR lista para imprimir.
