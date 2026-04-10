@@ -29,7 +29,7 @@ Este middleware resuelve todo el flujo automáticamente.
 
   
   <br />
-  <h3>🌐 Visita nuestra web oficial para más información sobre el Middleware, planes y soporte:</h3>
+  <h3>🌐 Visita nuestra web oficial para más información sobre el Middleware:</h3>
   <h2>👉 <a href="https://systemsfgh.com/">https://systemsfgh.com/</a> 👈</h2>
   <br />
 </div>
@@ -77,10 +77,10 @@ Si tu ERP puede enviar una petición `POST` mediante HTTP, ya has solucionado Ve
 
 ---
 
-## ⚖️ Licencia y Uso (¡Importante!)
+## ⚖️ Como usuarlo de forma gratuita (¡Importante!)
 
 > [!TIP]
-> **🎁 ¡ QUEREMOS QUE EVALUES NUESTRA API !**
+> **🎁 ¡ QUEREMOS QUE UTILICES NUESTRA API !**
 > Para facilitar la adopción y las pruebas en entornos productivos, **durante los primeros 18 meses tras la instalación, no se activarán LOS MECANISMOS DE RENOVACIÓN**. Podrás utilizar y validar el Middleware sin restricciones comerciales durante este extenso periodo de gracia. Las licencias adquiridas están pensadas para una viabilidad a muy largo plazo.
 > 
 > Esta versión del software se ofrece con un periodo garantizado de 18 meses de uso sin necesidad de adquirir ni validar ningún tipo de licencia adicional. Durante este tiempo el usuario podrá instalar y utilizar la aplicación con total normalidad.
