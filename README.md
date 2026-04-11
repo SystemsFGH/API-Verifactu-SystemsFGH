@@ -34,6 +34,17 @@ Este middleware resuelve todo el flujo automáticamente.
   <br />
 </div>
 
+> ⚠️ **AVISO IMPORTANTE: ESTADO DEL PROYECTO (SOFTWARE COMERCIAL PROPIETARIO)**
+> 
+> Este repositorio se utiliza *exclusivamente* como canal de distribución pública de binarios/releases, documentación técnica, ejemplos de integración (SDKs) y seguimiento de peticiones (Issue Tracker) para el servicio **VeriFactu Micro-Svr**.
+> 
+> **Actualmente ESTE PROYECTO NO ES OPEN SOURCE.** El código fuente profundo que gestiona las cadenas criptográficas, las validaciones y el núcleo de la aplicación se distribuye ofuscado dado que es el núcleo comercial del producto. Es una herramienta B2B *On-Premise*.
+> 
+> **¿Será código abierto (MIT)?** Nuestro plan a futuro es liberar gran parte o la totalidad del motor interno bajo licencia MIT una vez esté estabilizado y escalado, pero de momento sigue en ciclo cerrado para proteger nuestra iteración comercial temprana y modelo de negocio.
+> 
+> Al descargar el paquete desde *Releases*, estás descargando una versión comercial en fase **TRIAL / BETA**, que actualmente tiene un límite funcional de prueba (ej: 1 Emisor / 50 Facturas). Solo es la licencia de instalación, ya puede obtener una licencia gratuita para uso prolongado de 18 meses y tres emisores con solo registrarse en nuestra web. La web no presenta actividad comercial alguna, por tanto no hay rastro de monetización por licencias, solo descarga de la licencia mencionada, con caracter gratuito.
+
+
 > [!IMPORTANT]
 > **📢 ESTADO DEL PRODUCTO: Disponible las versiones para Windows y Linux (Mirar realease v1.0.2)**
 > El Middleware VeriFactu ya ha finalizando su fase de pruebas y **está disponible para descargar e instalar** en tu propia infraestructura. 
