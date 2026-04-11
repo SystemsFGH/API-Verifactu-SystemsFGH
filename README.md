@@ -241,5 +241,5 @@ sudo ./uninstall.sh
 
 ## Normativa Legal y Privacidad
 Al utilizar este software o repositorio asumes las condiciones descritas en nuestro documento legal, eximiendo al autor de responsabilidad comercial o fiscal directa.  
-👉 [Leer Aviso Legal, Privacidad y Términos de Uso completos](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/v1.0.2/GITHUB_LEGAL.md)
+👉 [Leer Aviso Legal, Privacidad y Términos de Uso completos](GITHUB_LEGAL.md)
 
