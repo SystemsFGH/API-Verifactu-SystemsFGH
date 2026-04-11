@@ -238,3 +238,8 @@ sudo ./uninstall.sh
 ```
 
 *(El asistente interactivo en pantalla detendrá los motores y **te dará a elegir obligatoriamente** si deseas un borrado total de la aplicación, o un borrado conservador que preserve tu base de datos de facturas intacta en el disco).*
+
+## Normativa Legal y Privacidad
+Al utilizar este software o repositorio asumes las condiciones descritas en nuestro documento legal, eximiendo al autor de responsabilidad comercial o fiscal directa.  
+👉 [Leer Aviso Legal, Privacidad y Términos de Uso completos](https://github.com/SystemsFGH/API-Verifactu-SystemsFGH/releases/download/v1.0.2/GITHUB_LEGAL.md)
+
