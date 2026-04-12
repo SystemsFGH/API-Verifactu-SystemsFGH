@@ -4,29 +4,8 @@
   <img src="https://img.shields.io/badge/Integraci%C3%B3n-API_REST_|_JSON-success?style=for-the-badge&logo=json" alt="API y JSON" />
   <br/><br/>
   
-  <h1>🚀 Documentación del Middleware VeriFactu (B2B)</h1>
+  <h1>🚀 Documentación del Middleware VeriFactu </h1>
   <p><b>El puente definitivo entre tu ERP y la Agencia Tributaria (VeriFactu)</b></p>
-
-  # API VeriFactu para ERPs implementados en cualquier lenguaje de programación
-
-Implementación completa del sistema VeriFactu (AEAT) para:
-- generación de registros
-- firma electrónica
-- envío automático a Hacienda
-
-Diseñado para integrarse en aplicaciones existentes sin modificar su arquitectura.
-
-## Problema
-
-Implementar VeriFactu desde cero implica:
-- firma XAdES
-- encadenamiento hash
-- comunicación SOAP compleja
-
-## Solución
-
-Este middleware resuelve todo el flujo automáticamente.
-
   
   <br />
   <h3>🌐 Visita nuestra web oficial para más información sobre el Middleware:</h3>
