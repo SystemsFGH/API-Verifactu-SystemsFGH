@@ -13,7 +13,10 @@
   <br />
 </div>
 
-> ⚠️ **AVISO IMPORTANTE: ESTADO DEL PROYECTO (SOFTWARE COMERCIAL PROPIETARIO)**
+[![Muestra del panel de control de administración de VeriFactu systemsFGH](https://img.youtube.com/vi/ID_DE_TU_VIDEO/0.jpg)](https://www.youtube.com/watch?v=XRn_FgcbQMM)
+
+
+> ⚠️ **AVISO IMPORTANTE: ESTADO DEL PROYECTO (SOFTWARE PROPIETARIO)**
 > 
 > Este repositorio se utiliza *exclusivamente* como canal de distribución pública de binarios/releases, documentación técnica, ejemplos de integración (SDKs) y seguimiento de peticiones (Issue Tracker) para el servicio **VeriFactu Micro-Svr**.
 > 
