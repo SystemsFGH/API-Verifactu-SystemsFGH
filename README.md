@@ -13,7 +13,8 @@
   <br />
 </div>
 
-[![Muestra del panel de control de administración de VeriFactu systemsFGH](https://img.youtube.com/vi/ID_DE_TU_VIDEO/0.jpg)](https://www.youtube.com/watch?v=XRn_FgcbQMM)
+[![Muestra del panel de control de administración de VeriFactu systemsFGH](https://img.youtube.com/vi/XRn_FgcbQMM/hqdefault.jpg)](https://www.youtube.com/watch?v=XRn_FgcbQMM)
+
 
 
 > ⚠️ **AVISO IMPORTANTE: ESTADO DEL PROYECTO (SOFTWARE PROPIETARIO)**
